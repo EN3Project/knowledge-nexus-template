@@ -54,7 +54,15 @@ Install packs only when you need them:
 - `templates/packs/maintenance/` for system hygiene and quality checks.
 - `templates/packs/personalization/` for persona and self-context.
 
-## 5. Optional MCP
+## 5. Continue With Tutorials
+
+- [Tutorial 01: First Core Session](tutorials/01-core-first-session.md)
+- [Tutorial 02: Add Research Pack](tutorials/02-add-research-pack.md)
+- [Tutorial 03: Compile a Knowledge Artifact](tutorials/03-compile-knowledge-artifact.md)
+- [Tutorial 04: Maintain Your Vault](tutorials/04-maintain-your-vault.md)
+- [Tutorial 05: Personalize Safely](tutorials/05-personalize-safely.md)
+
+## 6. Optional MCP
 
 Knowledge Nexus works as files first. MCP is optional.
 

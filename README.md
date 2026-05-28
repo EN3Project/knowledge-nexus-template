@@ -40,6 +40,9 @@ examples/                     Minimal and advanced vault examples
 
 See [Getting Started](docs/getting-started.md) for the full walkthrough.
 
+For guided walkthroughs, start with [Tutorial 01](docs/tutorials/01-core-first-session.md).
+For model-specific guidance, see [LLM Compatibility](docs/llm-compatibility.md).
+
 ## Why Compile Knowledge?
 
 Do not make the LLM reinterpret raw documents on every query. Stable knowledge
