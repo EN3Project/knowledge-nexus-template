@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+*.log
+99_System/Handoff/CURRENT_CONTEXT.md
+99_System/Handoff/WORKFLOW_SCRATCH.md
+99_System/mcp/node_modules/
+99_System/mcp/*.log
