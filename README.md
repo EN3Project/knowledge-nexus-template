@@ -2,6 +2,8 @@
 
 An Obsidian-first memory and workflow layer for LLM agents.
 
+日本語版: [README.ja.md](README.ja.md)
+
 Knowledge Nexus turns a local Obsidian vault into a shared operating context for
 Claude, Codex, Gemini, and other LLM tools. It separates long-term memory,
 short-term handoff, reusable workflows, and quality checks so agents can restart,
