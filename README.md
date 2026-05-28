@@ -42,6 +42,7 @@ See [Getting Started](docs/getting-started.md) for the full walkthrough.
 
 For guided walkthroughs, start with [Tutorial 01](docs/tutorials/01-core-first-session.md).
 For model-specific guidance, see [LLM Compatibility](docs/llm-compatibility.md).
+To see Compile Pack output, open [Compiled Artifact Example](examples/compiled-artifact/README.md).
 
 ## Why Compile Knowledge?
 

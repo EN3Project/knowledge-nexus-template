@@ -23,15 +23,15 @@ A `decision-guide` artifact with:
 
 1. Install Core.
 2. Copy everything inside `templates/packs/compile/` into the vault root.
-3. Create three rough notes under `index/00_Inbox/` about a topic you care about.
+3. Inspect the example raw notes in `examples/compiled-artifact/raw-notes/`.
 4. Ask:
 
 ```txt
-compile-knowledge these three notes into a decision-guide artifact.
+compile-knowledge examples/compiled-artifact/raw-notes/ into a decision-guide artifact.
 ```
 
 5. Confirm the artifact type and save destination.
-6. Compare the raw notes against the compiled artifact.
+6. Compare the raw notes against `examples/compiled-artifact/compiled/knowledge-base-decision-guide.md`.
 
 ## Expected Result
 
