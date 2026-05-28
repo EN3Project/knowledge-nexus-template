@@ -117,14 +117,14 @@ templates/packs/personalization/
 - [Tutorial 03: Compile a Knowledge Artifact](docs/tutorials/03-compile-knowledge-artifact.md)
 - [LLM Compatibility](docs/llm-compatibility.md)
 
-## 実績としての見どころ
+## アーキテクチャの特徴
 
-- Obsidian Vault を LLM の外部記憶として扱う設計
-- `Memory` / `Handoff` / `Research` / `Compile` / `Maintenance` の責務分離
-- Claude / Codex / Gemini の複数 LLM クライアントを想定した互換設計
-- 生ドキュメントを LLM-ready artifact に変換する Compile Pack
-- 品質劣化を前提にした Maintenance Pack と Golden Set
-- 個人用運用と汎用テンプレートを分離した OSS パッケージング
+- Obsidian Vault を LLM の外部記憶レイヤーとして扱う
+- 長期記憶、短期引き継ぎ、調査、知識コンパイル、保守を分離する
+- Claude / Codex / Gemini など複数 LLM クライアントで同じ Vault を共有する
+- 生ドキュメントを毎回読ませず、LLM-ready artifact に変換して再利用する
+- 知識基盤の劣化を前提に、点検・整理・評価のワークフローを持つ
+- 個人運用と汎用テンプレートを分け、必要な Pack だけを導入できる
 
 ## サンプル
 
