@@ -31,6 +31,22 @@ Use for:
 - librarian / investigator / analyst / critic / scribe roles
 - reusable research notes
 
+## Compile Pack
+
+Install after Core when you want to turn raw or scattered notes into reusable
+LLM-ready artifacts.
+
+```txt
+templates/packs/compile/
+```
+
+Use for:
+
+- compile-on-ingest workflows
+- cross-note synthesis
+- typed artifacts with citations
+- progressive disclosure indexes
+
 ## Maintenance Pack
 
 Install after Core, optionally after Research:

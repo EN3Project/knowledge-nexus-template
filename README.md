@@ -15,6 +15,7 @@ This repository is packaged as profiles. Install only the layer you need.
 |---|---|---|
 | Core | You want persistent LLM memory and clean handoffs | `run/load`, `Memory/INDEX.md`, `condense`, `handoff`, MCP notes |
 | Research Pack | You want source-backed multi-agent research | `StandardResearch`, agent roles, source-backed note template |
+| Compile Pack | You want LLM-ready compiled knowledge artifacts | `compile-knowledge`, `synthesize`, compiled artifact templates |
 | Maintenance Pack | Your vault is growing and needs hygiene | `review-system`, `prune-memory`, `task-audit`, quality golden set |
 | Personalization Pack | You want custom persona and self-context | persona template, self-context template, observer profile |
 
@@ -24,6 +25,7 @@ This repository is packaged as profiles. Install only the layer you need.
 docs/                         Conceptual docs and install guides
 templates/core/               Minimal Knowledge Nexus runtime
 templates/packs/research/     Optional research workflow pack
+templates/packs/compile/      Optional knowledge compilation and synthesis pack
 templates/packs/maintenance/  Optional maintenance and quality pack
 templates/packs/personalization/
 examples/                     Minimal and advanced vault examples
@@ -37,6 +39,12 @@ examples/                     Minimal and advanced vault examples
 4. Add packs only after the core loop works.
 
 See [Getting Started](docs/getting-started.md) for the full walkthrough.
+
+## Why Compile Knowledge?
+
+Do not make the LLM reinterpret raw documents on every query. Stable knowledge
+should be compiled once into typed, cited, reusable artifacts, then retrieved
+progressively when needed.
 
 ## Core Idea
 

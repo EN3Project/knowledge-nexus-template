@@ -50,6 +50,7 @@ The agent should:
 Install packs only when you need them:
 
 - `templates/packs/research/` for source-backed research.
+- `templates/packs/compile/` for LLM-ready compiled knowledge artifacts.
 - `templates/packs/maintenance/` for system hygiene and quality checks.
 - `templates/packs/personalization/` for persona and self-context.
 

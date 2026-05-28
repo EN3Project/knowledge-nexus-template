@@ -28,5 +28,21 @@ installable in layers:
 
 1. Core first.
 2. Research workflows when needed.
-3. Maintenance workflows when the vault grows.
-4. Personalization only when the user wants it.
+3. Compile stable knowledge into reusable artifacts.
+4. Maintenance workflows when the vault grows.
+5. Personalization only when the user wants it.
+
+## Compile-Time Knowledge
+
+Knowledge Nexus favors compile-time structure over query-time improvisation.
+
+Raw notes are useful for humans, but agents need smaller artifacts with:
+
+- type
+- scope
+- source links
+- assumptions
+- reusable claims
+- retrieval hints
+
+This is handled by the optional Compile Pack.
