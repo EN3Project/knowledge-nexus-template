@@ -4,6 +4,8 @@ An Obsidian-first memory and workflow layer for LLM agents.
 
 日本語版: [README.ja.md](README.ja.md)
 
+> **First time here?** → [Getting Started](docs/getting-started.md)
+
 Knowledge Nexus turns a local Obsidian vault into a shared operating context for
 Claude, Codex, Gemini, and other LLM tools. It separates long-term memory,
 short-term handoff, reusable workflows, and quality checks so agents can restart,
@@ -35,6 +37,7 @@ examples/                     Minimal and advanced vault examples
 
 ## Quick Install
 
+0. Clone or download this repository.
 1. Copy `templates/core/*` into the root of an Obsidian vault.
 2. Open the vault with your LLM tool.
 3. Say `run` or `load`.

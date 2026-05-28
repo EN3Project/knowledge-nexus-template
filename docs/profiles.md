@@ -1,5 +1,22 @@
 # Install Profiles
 
+## Which Pack Do You Need?
+
+Start with Core. Then ask yourself:
+
+- Do you need to research topics and save source-backed notes?
+  → Add **Research Pack**
+- Do you want to compile scattered notes into LLM-ready artifacts?
+  → Add **Compile Pack**
+- Is your vault growing and starting to feel cluttered?
+  → Add **Maintenance Pack**
+- Do you want the agent to adapt to your working style?
+  → Add **Personalization Pack**
+
+You do not need all packs. Most users need only Core + one or two packs.
+
+---
+
 ## Core
 
 Minimum viable Knowledge Nexus.

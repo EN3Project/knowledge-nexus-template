@@ -25,6 +25,9 @@ A vault that can:
 run
 ```
 
+**Expected LLM response (example):**
+> Memory index loaded. No active handoff found. Ready — what are we working on?
+
 5. Ask:
 
 ```txt
@@ -37,6 +40,10 @@ Help me plan a two-week writing project.
 handoff
 ```
 
+**Expected LLM response (example):**
+> Handoff saved to `99_System/Handoff/CURRENT_CONTEXT.md`. Resume next session
+> with `run` and choose "load" when prompted.
+
 7. Confirm this file exists:
 
 ```txt
@@ -48,6 +55,9 @@ handoff
 ```txt
 clear-handoff
 ```
+
+**Expected LLM response (example):**
+> `CURRENT_CONTEXT.md` deleted. Long-term memory is unchanged.
 
 ## Expected Result
 

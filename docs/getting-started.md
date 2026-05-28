@@ -1,6 +1,20 @@
 # Getting Started
 
+## 0. Get the Template
+
+Clone or download this repository:
+
+```sh
+git clone https://github.com/EN3Project/knowledge-nexus-template.git
+```
+
+Or download a ZIP from GitHub and unzip it.
+
 ## 1. Install Core
+
+An Obsidian vault is just a folder on your disk that Obsidian treats as a
+workspace. If you don't have one yet, create a new empty folder and open it in
+Obsidian.
 
 Copy the contents of `templates/core/` into your Obsidian vault root.
 
@@ -28,12 +42,11 @@ Tell your LLM:
 run
 ```
 
-The agent should:
+The agent reads `SYSTEM_MANIFEST.md` and `99_System/Memory/INDEX.md`, then asks
+how to handle `99_System/Handoff/CURRENT_CONTEXT.md` if one exists.
 
-1. Read `SYSTEM_MANIFEST.md`.
-2. Read `99_System/Memory/INDEX.md`.
-3. Check whether `99_System/Handoff/CURRENT_CONTEXT.md` exists.
-4. Ask before loading or deleting short-term context.
+**Expected result:** The agent confirms memory is loaded and asks what you want
+to work on. If no handoff file exists yet, it skips the confirmation prompt.
 
 ## 3. Use the Core Loop
 
@@ -54,6 +67,9 @@ Install packs only when you need them:
 - `templates/packs/maintenance/` for system hygiene and quality checks.
 - `templates/packs/personalization/` for persona and self-context.
 
+Not sure which pack to add? See [Install Profiles](profiles.md) for a decision
+guide.
+
 ## 5. Continue With Tutorials
 
 - [Tutorial 01: First Core Session](tutorials/01-core-first-session.md)
@@ -73,3 +89,17 @@ If you use an MCP vault server, expose at least:
 - `vault_write(path, content)`
 
 Keep MCP implementation details out of prompts when possible.
+
+## Troubleshooting
+
+**The agent doesn't respond to `run`.**
+Make sure the LLM tool has access to the vault folder and that
+`SYSTEM_MANIFEST.md` exists at the vault root.
+
+**The agent ignores `handoff` or `condense`.**
+Verify that `99_System/Prompts/Protocols/CommandProtocol.md` exists. If
+missing, re-copy from `templates/core/`.
+
+**I see garbled text in file contents.**
+If you are using PowerShell to read files, use
+`Get-Content -Raw -Encoding UTF8`.
